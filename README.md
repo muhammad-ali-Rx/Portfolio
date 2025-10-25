@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/vZqH8ntg/Untitled-Google-Chrome-8-10-2025-8-29-15-PM.png)
+![Portfolio Demo](https://i.postimg.cc/Qxt6zqm4/Portfolio-Muhammad-Ali-Google-Chrome-10-26-2025-3-52-59-AM.png)
 
 ---
 
