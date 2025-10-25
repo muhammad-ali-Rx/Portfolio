@@ -64,13 +64,13 @@ export default function Hero() {
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: Fresh, 
     hireable: function() {
         return (
             this.hardWorker &&
             this.problemSolver &&
             this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.yearsOfExperience >= Fresh
         );
     }
 };`);
@@ -149,6 +149,68 @@ export default function Hero() {
 
   return (
     <>
+        <Helmet>
+        {/* 👑 Basic SEO Tags */}
+        <title>Muhammad Ali | Full Stack Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Welcome to Muhammad Ali's portfolio — a passionate Full Stack PHP & MERN developer from Karachi, skilled in Laravel, React, Node.js, and Flutter."
+        />
+        <meta
+          name="keywords"
+          content="Muhammad Ali, Full Stack Developer, Laravel, React, Node.js, MERN, Flutter, PHP Developer, Web Developer, Portfolio"
+        />
+        <meta name="author" content="Muhammad Ali" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+
+        {/* 🌍 Canonical URL */}
+        <link rel="canonical" href="https://muhammadali.dev/" />
+
+        {/* 📱 Mobile Optimization */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#04081A" />
+
+        {/* 📷 Open Graph (Facebook / LinkedIn) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://muhammadali.dev/" />
+        <meta
+          property="og:title"
+          content="Muhammad Ali | Full Stack PHP & MERN Developer"
+        />
+        <meta
+          property="og:description"
+          content="Explore the portfolio of Muhammad Ali — experienced in Laravel, React, Node.js, and Flutter. Building creative web & mobile apps."
+        />
+        <meta
+          property="og:image"
+          content="https://muhammadali.dev/og-image.jpg"
+        />
+
+        {/* 🐦 Twitter Card (for Twitter SEO) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@muhammadali" />
+        <meta
+          name="twitter:title"
+          content="Muhammad Ali | Full Stack PHP & MERN Developer"
+        />
+        <meta
+          name="twitter:description"
+          content="Welcome to Muhammad Ali's developer portfolio — building modern, responsive apps using Laravel, React, and Node.js."
+        />
+        <meta
+          name="twitter:image"
+          content="https://muhammadali.dev/twitter-image.jpg"
+        />
+
+        {/* 🧠 Extra Quality Tags */}
+        <meta name="application-name" content="Muhammad Ali Portfolio" />
+        <meta name="rating" content="general" />
+        <meta name="distribution" content="global" />
+        <meta name="HandheldFriendly" content="true" />
+      </Helmet>
+
       <main className="bg-[#020617] text-white min-h-screen">
         <section
           className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0 hero-section-padding"
@@ -232,7 +294,7 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
                 <a
-                  href=""
+                  href="#about"
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
@@ -245,7 +307,7 @@ export default function Hero() {
 
                 {/* Contact Button */}
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1CanI8KCWM3Mqo3Hto3cFLZuy0aJMfCp8/view?usp=sharing" target="blank"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">

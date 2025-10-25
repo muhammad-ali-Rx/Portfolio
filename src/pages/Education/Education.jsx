@@ -25,7 +25,7 @@ const EducationSection = () => {
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
-      degree: "Intermediate (HSSC)",
+      degree: "Intermediate (HSC)",
       school: "Board of Intermediate Education Karachi",
       mascot: "📗",
       year: "August-2024 Present",

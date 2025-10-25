@@ -16,34 +16,24 @@ const projects = [
     liveLink: "https://marudry-fruits.netlify.app/",
   },
   {
-    title: "Sound",
+    title: "🚀 Ochi",
     description:
-      "A Core PHP Full-stack web application with Mysql Database, for Sound Music and Entertainment, showcasing various music genres and artists.",
-    src: "",
-    link: "",
-    color: "#8f89ff",
-    githubLink: "",
-    liveLink: "",
-  },
-  {
-    title: "🚀 Glimpse",
-    description:
-      "🚀 Glimpse A Core PHP Full-stack web application with Mysql Database, For Real-time Chat-base and post and story Share platform just Like instagram💻✨",
-    src: "",
-    link: "",
+      "🚀 A small, animated React/Vite website showcasing a presentation agency UI with scroll and motion effects. This repo contains a handcrafted landing, marquee, project cards, and more — built with modern frontend tools and animation libraries.",
+    src: "Ochi",
+    link: "https://i.postimg.cc/Sx0VTbvr/preview.png",
     color: "#fff",
-    githubLink: "",
-    liveLink: "",
+    githubLink: "https://github.com/muhammad-ali-Rx/Ochi",
+    liveLink: "ali-clone-ochi.netlify.app/",
   },
   {
     title: "CurrenSee 🔥",
     description:
       "CurrenSee is a powerful Cross-platform application for real-time currency exchange rates tracking. Stay updated with the latest market trends and make informed decisions! 💻✨",
-    src: "",
-    link: "",
+    src: "CurrenSee",
+    link: "https://i.postimg.cc/dVyQFrn1/localhost-54253-Google-Chrome-10-26-2025-3-01-59-AM.png",
+    liveLink: "https://github.com/muhammad-ali-Rx/currency_converter",
+    githubLink: "https://github.com/muhammad-ali-Rx/currency_converter",
     color: "#ed649e",
-    githubLink: "",
-    liveLink: "",
   },
 ];
 

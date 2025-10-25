@@ -1,4 +1,4 @@
-import HeroImg from "@/assets/images/hero.jpg";
+import HeroImg from "@/assets/images/480877708_1136737927940142_4129810079887375381_n.jpg";
 import OlovaLogo from "@/assets/images/olova.png";
 import { Instagram, Github, Linkedin } from "lucide-react";
 
@@ -8,7 +8,7 @@ export default function About() {
       <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
-            Developer, Designer, Creator, Innovator
+            Developer, Designer & Creator. ,
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
             <div className="relative mb-6 sm:mb-0">
@@ -61,7 +61,7 @@ export default function About() {
                       
                       {/* Social Icons */}
                       <a
-                        href="https://instagram.com/yourusername"
+                        href="https://www.instagram.com/shyk.ali_0/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-pink-500 transition-colors"
@@ -69,7 +69,7 @@ export default function About() {
                         <Instagram size={20} />
                       </a>
                       <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/muhammad-ali-Rx"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-300 transition-colors"
@@ -77,7 +77,7 @@ export default function About() {
                         <Github size={20} />
                       </a>
                       <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://www.linkedin.com/in/muhammad-ali-6b8030322/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-blue-500 transition-colors"
